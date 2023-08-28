@@ -1,0 +1,205 @@
+    1  passwd
+    2  git clone https://git.kernel.org/pub/scm/git/git.git
+    3  wget www.github.com
+    4  git --version
+    5  tar -zxf git-2.8.0.tar.gz
+    6  cd git-2.8.0
+    7  git clone https://git.kernel.org/pub/scm/git/git.git
+    8  mkdir /tmp/tutorial
+    9  cd /tmp/tutorial
+   10  dir1 dir2dir3dasd
+   11  mkdir ws1
+   12  git clone https://github.com/BrandonLeeSJSU/cs131
+   13  mkdir ws1
+   14  history > cmds.log
+   15  git push origin cs131
+   16  echo "# cs131" >> README.md
+   17  git init
+   18  git add README.md
+   19  git commit -m "first commit"
+   20  git branch -M main
+   21  git remote add origin https://github.com/BrandonLeeSJSU/cs131.git
+   22  git push -u origin main 
+   23  pbcopy < ~/.ssh/id_rsa.pub
+   24  mkdir /tmp/tutorial
+   25  cd /tmp/tutorialmkdir /tmp/tutorial
+   26  git init
+   27  git config --global init.defaultBranch main
+   28  git config --global init.defaultBranch <cs131>
+   29  git config --global init.defaultBranch cs131
+   30  git branch -m cs131
+   31  git --version
+   32  mkdir ws1
+   33  pwd
+   34  history >cmds.log
+   35  ls
+   36  history > cmds.log
+   37  git config --global user.email "brandon.lee01@sjsu.edu"
+   38  git config --global user.name "Brandon"
+   39  git add .
+   40  pwd
+   41  cd cs131
+   42  pwd
+   43  cs ws1
+   44  ls
+   45  cd ws1
+   46  git add .
+   47  git commit -m cmds.log
+   48  git add
+   49  git add .
+   50  git commit -m cmds.log
+   51  git add cmds.log
+   52  ls
+   53  pwd
+   54  git clone https://github.com/BrandonLeeSJSU/cs131.git
+   55  ls
+   56  git add .
+   57  pwd
+   58  cd ws1
+   59  pwd
+   60  cd
+   61  pwd
+   62  cdcs131
+   63  cs cs131
+   64  cd cs131
+   65  pwd
+   66  cd ws1
+   67  mkdir cs131/ws1
+   68  mkdir ws1
+   69  ls
+   70  cd
+   71  pwd
+   72  cd cs131
+   73  pwd
+   74  git add cmds.log
+   75  git clone https://github.com/BrandonLeeSJSU/cs131.git
+   76  pwd
+   77  mkdir ws1
+   78  rm ws1
+   79  rmdir ws1
+   80  pwd
+   81  mkdir ws1
+   82  ls
+   83  cd ws1
+   84  pwd
+   85  git add . 
+   86  git commit -m cmds.log
+   87  pwd
+   88  ls
+   89  git add cmds.log
+   90  ls
+   91  git commit
+   92  git remote add origin https://github.com/BrandonLeeSJSU/cs131
+   93  git remote -v
+   94  git push -u origin master
+   95  pwd
+   96  cd cs131
+   97  ls
+   98  cd ws1
+   99  git add .
+  100  git commit -m "First commit"
+  101  ls
+  102  git add README.md
+  103  git commit -a
+  104  pwd
+  105  cd cs131
+  106  pwd
+  107  ls
+  108  cd ws1
+  109  git add .
+  110  git commit
+  111  git add cmds.log
+  112  cd cs131
+  113  cd
+  114  pwd
+  115  cd cs131
+  116  git add cmds.log
+  117  cd
+  118  git add cmds.log
+  119  pwd
+  120  ls
+  121  mv brandon23fa/cmds.log brandon23fa/cs131/ws1
+  122  rm cmds.log
+  123  pwd
+  124  ls
+  125  rm index.html
+  126  ls
+  127  rm ws1
+  128  rmdir ws1
+  129  ls
+  130  git add .
+  131  cd cs131
+  132  ls
+  133  git add.
+  134  git add .
+  135  git rm --cached cs131
+  136  -f
+  137   -f
+  138  gir -f
+  139  git commit -m "First commit"
+  140  touch README.md
+  141  gir commit -m "First commit"
+  142  git -f
+  143  git commit -m "First commit"
+  144  git add .
+  145  git commit -m "First commit"
+  146  pwd
+  147  ls
+  148  cd ws1
+  149  git add .
+  150  git commit -m "First Commit"
+  151  cd
+  152  pwd
+  153  cd cs131
+  154  ls
+  155  rm README.md
+  156  ls
+  157  cd ws1
+  158  touch README.md
+  159  ls
+  160  git add .
+  161  git commit -m "First Commit"
+  162  cd cs131
+  163  ls
+  164  cd ws1
+  165  git add .
+  166  git commit -m "First Commit"
+  167  got restore README.md
+  168  git restore README.md
+  169  git commit -m "First Commit"
+  170  git add .
+  171  git add README.md
+  172  git diff
+  173  git checkout.
+  174  git checkout .
+  175  git log
+  176  git push -u origin master
+  177  git clone https://github.com/BrandonLeeSJSU/cs131
+  178  pwd
+  179  ls
+  180  rm git
+  181  ls
+  182  cd
+  183  ls
+  184  cd cs131
+  185  cd ws1
+  186  ls
+  187  git add cmds.log
+  188  ls
+  189  git status
+  190  git commit -m "ws1"
+  191  git add cmds.log
+  192  git status
+  193  ls
+  194  cd cs131
+  195  ls
+  196  cd
+  197  ls
+  198  cd cs131
+  199  cd ws1
+  200  git add cmds.log
+  201  git status
+  202  git commit -m "First Commit"
+  203  git branch -M main
+  204  git status
+  205  history > cmds.log
