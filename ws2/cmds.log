@@ -1,83 +1,77 @@
-    1  passwd
-    2  git clone https://git.kernel.org/pub/scm/git/git.git
-    3  wget www.github.com
-    4  git --version
-    5  tar -zxf git-2.8.0.tar.gz
-    6  cd git-2.8.0
-    7  git clone https://git.kernel.org/pub/scm/git/git.git
-    8  mkdir /tmp/tutorial
-    9  cd /tmp/tutorial
-   10  dir1 dir2dir3dasd
-   11  mkdir ws1
-   12  git clone https://github.com/BrandonLeeSJSU/cs131
-   13  mkdir ws1
-   14  history > cmds.log
-   15  git push origin cs131
-   16  echo "# cs131" >> README.md
-   17  git init
-   18  git add README.md
-   19  git commit -m "first commit"
-   20  git branch -M main
-   21  git remote add origin https://github.com/BrandonLeeSJSU/cs131.git
-   22  git push -u origin main 
-   23  pbcopy < ~/.ssh/id_rsa.pub
-   24  mkdir /tmp/tutorial
-   25  cd /tmp/tutorialmkdir /tmp/tutorial
-   26  git init
-   27  git config --global init.defaultBranch main
-   28  git config --global init.defaultBranch <cs131>
-   29  git config --global init.defaultBranch cs131
-   30  git branch -m cs131
-   31  git --version
-   32  mkdir ws1
-   33  pwd
-   34  history >cmds.log
-   35  ls
-   36  history > cmds.log
-   37  git config --global user.email "brandon.lee01@sjsu.edu"
-   38  git config --global user.name "Brandon"
-   39  git add .
-   40  pwd
-   41  cd cs131
-   42  pwd
-   43  cs ws1
-   44  ls
-   45  cd ws1
-   46  git add .
-   47  git commit -m cmds.log
-   48  git add
   470  tar zxvf taxidata.tar.gz
+  471  ls
   472  cd taxidata
+  473  ls
   474  tail -20 2019-03.csv
   475  grep -20 2019-03-12 2019-03.csv
-  477  cd taxidata
-  478  grep -20 "2019-03-12" 2019-03.csv
-  479  tail -20 "2019-03-12" 2019-03.csv
-  480  tail -20 (2019-03-12) 2019-03.csv
-  481  tail -20 [2019-03-12] 2019-03.csv
-  482  tail -20 2019-03.csv > results.txt
-  483  cat results.txt
-  484  tail -20 '2019-03-12' 2019-03.csv > results.txt
-  485  grep -20 '2019-03-12' 2019-03.csv > results.txt
-  486  cat results.txt
-  487  grep "^2019-03-12" 2019-03.csv > results.txt
+  476  x
+  477  ls
+  478  cd cs131
+  479  git add .
+  480  git commit -m "Second Commit WS2"
+  481  git push origin main
+  482  cd taxidata
+  483  grep -20 "2019-03-12" 2019-03.csv
+  484  tail -20 "2019-03-12" 2019-03.csv
+  485  tail -20 (2019-03-12) 2019-03.csv
+  486  tail -20 [2019-03-12] 2019-03.csv
+  487  tail -20 2019-03.csv > results.txt
   488  cat results.txt
-  489  grep -20 "^2019-03-12" 2019-03.csv > results.txt
-  490  cat results.txt
-  491  tail -20 "^2019-03-12" 2019-03.csv > results.txt
-  492  wc results.txt
-  493  grep "^2019-03-12" 2019-03.csv > results.txt
-  494  cat results.txt
-  495  grep -20 "^2019-03-12" 2019-03.csv > results.txt
-  496  cat results.t
-  497  cat results.txt
-  498  tail -20 '2019-03-12' 2019-03.csv > results.txt
-  499  tail -20 "2019-03-12" 2019-03.csv
-  500  tail -20 2019-03.csv
-  501  tail -20 2019-03.csv > results.txt
+  489  tail -20 '2019-03-12' 2019-03.csv > results.txt
+  490  grep -20 '2019-03-12' 2019-03.csv > results.txt
+  491  cat results.txt
+  492  grep "^2019-03-12" 2019-03.csv > results.txt
+  493  cat results.txt
+  494  grep -20 "^2019-03-12" 2019-03.csv > results.txt
+  495  cat results.txt
+  496  tail -20 "^2019-03-12" 2019-03.csv > results.txt
+  497  wc results.txt
+  498  grep "^2019-03-12" 2019-03.csv > results.txt
+  499  cat results.txt
+  500  grep -20 "^2019-03-12" 2019-03.csv > results.txt
+  501  cat results.t
   502  cat results.txt
-  503  wc >> results.txt
-  504  cat results.txt
-  505  wc results.txt >> results.txt
-  506  cat results.txt
-  507  history > cmds.log
+  503  tail -20 '2019-03-12' 2019-03.csv > results.txt
+  504  tail -20 "2019-03-12" 2019-03.csv
+  505  tail -20 2019-03.csv
+  506  tail -20 2019-03.csv > results.txt
+  507  cat results.txt
+  508  wc >> results.txt
+  509  cat results.txt
+  510  wc results.txt >> results.txt
+  511  cat results.txt
+  512  history > cmds.log
+  513  mv results.txt brandon23fa/
+  514  mv results.txt brandon23fa/cs131/
+  515  mv results.txt brandon23fa/cs131
+  516  mv results.txt ../
+  517  ls
+  518  mv results.txt ../
+  519  mv cmds.log ../
+  520  cd
+  521  ls
+  522  vim cmds.log
+  523  mv results.txt brandon23fa/cs131
+  524  brandon23fa/cs131/
+  525  ls
+  526  pwd
+  527  mv results.txt cs131/
+  528  mv cmds.log cs131/
+  529  cd cs131
+  530  ls
+  531  mv results.txt ws2/
+  532  ls
+  533  mv cmds.log ws2/
+  534  cd
+  535  cd taxidata
+  536  grep "2019-03-12" 2019-03.csv | tail -n 20 > results2.txt
+  537  ls
+  538  cat results2.txt
+  539  vim 2019-03.csv
+  540  grep /.*,.*,\"2019-03-12 .*/ 2019-03.csv | tail -n 20 > results2.txt
+  541  ls
+  542  cat results2.txt
+  543  grep .*,.*,\"2019-03-12 .* 2019-03.csv | tail -n 20 > results2.txt
+  544  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | tail -n 20 > results2.txt
+  545  cat results2.txt
+  546  history > cmds.log
