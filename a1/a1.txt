@@ -1,0 +1,9 @@
+Question 2: /mnt/scratch/brandon23fa
+Question 3:brandonf23:x:1127:1127::/mnt/scratch/FA23_CS131_Ashish/brandonf23:/bin/bash 
+Question 4: When removing execute permissions, I cannot "cd" in temp, "ls -l" temp, and create files under temp.
+Question 5: I am allowed to change the name of temp2 to temp3. I cannot cp a directory without using "-r", like this: cp -r dir1 dir2.
+Question 6: the file under /proc/meminfo contains information about memory on the server. The file under /proc/cpuinfo contains info about the cpu on my server.
+Question 7: 73080512kB 
+Question 8: 256 processors, POWER8 is the architecture name, Processor speed is 3425.0 MHz
+Question 9: Red Hat Enterpirse Linux 8.6 (Ootpa), file is name /etc/os-release
+Question 10: File Permissions for os-release is Read, Write, and Execute for the owner of the file, permissions for the group, and permissions for others. the Perm line looks like lrwxrwxrwx. the "l" is a link to another file. 

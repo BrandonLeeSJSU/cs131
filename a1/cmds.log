@@ -1,0 +1,66 @@
+  Question 1
+  589  mkdir a1
+  Question 2
+  592  pwd > a1.txt
+  593  less a1.txt
+  594  pwd
+  Question 3
+       cat /etc/passwd
+  634  grep "brandonf23" /etc/passwd
+  635  grep "brandonf23" /etc/passwd >> a1.txt
+  36  vim a1.txt
+  637  cd cs131
+  638  ls
+  639  cd
+  640  cd cs131
+  641  cd a1
+  642  mkdir temp
+  643  ls
+  Question 4
+  647  chmod -rwx temp
+  648  cd temp
+  649  ls
+  650  wc -l temp
+  651  ls temp
+  652  touch temp/test.txt
+  Question 5
+  653  mkdir temp2
+  654  mkdir temp3
+  655  rmdir temp3
+  656  mv temp2 temp3
+  657  ls
+  658  cp temp3 temp
+  659  cp -r temp3 temp
+  660  chmod +rwx temp
+  661  cp -r temp3 temp
+  663  vim a1.txt
+  667  chmod -rwx temp
+  668  ls -l temp
+  669  chmod +rwx temp
+  670  cd
+  671  cat directory/proc/
+  672  ls directory/proc/
+  Question 6
+  673  cat /proc/meminfo
+  674  vmstat
+  675  vmstat -s
+  676  vim a1.txt
+  677  cat /proc/cpuinfo
+  678  vim a1.txt
+  Question 7
+  679  head /proc/cpuinfo
+  680  head /proc/meminfo
+  681  vim a1.txt
+  Question 8
+  682  head /proc/cpuinfo
+  683  tail /proc/cpuinfo
+  684  cat /proc/cpuinfo
+  685  vim a1.txt
+  Question 9
+  686  cat /etc/os-release
+  687  lsb_release -a
+  688  vim a1.txt
+  Question 10
+  689  ls -l /etc/os-release
+  690  vim a1.txt
+  691  history > cmds.log
