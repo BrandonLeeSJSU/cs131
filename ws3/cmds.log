@@ -1,0 +1,31 @@
+  729  cut -d "," -f 8 January.txt
+  730  sort January.txt
+  731  cut -d "," -f 8 January.txt > January.txt
+  732  vim January.txt
+  733  less January.txt
+  734  cut -d "," -f 8 2019-01.csv > January.txt
+  735  less January.txt
+  736  sort January.txt > January.txt
+  737  less January.txt
+  738  cut -d "," -f 8 2019-01.csv > January.txt
+  739  sort -n January.txt
+  740  uniq -c January.txt
+  741  uniq -c January.txt > JanPickup.txt
+  742  sort -n JanPickup.txt
+  743  head JanPickup.txt
+  744  vi JanPickup.txt
+  745  sort -n JanPickup.txt > JanPickup.txt
+  746  vi JanPickup.txt
+  747  uniq -c January.txt > JanPickup.txt
+  748  sort -n JanPickup.txt > JanPickupSorted.txt
+  749  head JanPickupSorted.txt
+  750  sort -nr JanPickup.txt > JanPickupSorted.txt
+  751  head JanPickupSorted.txt
+  752  head -3  JanPickupSorted.txt > ws3.txt
+  753  vim ws3.txt
+  754  cut -d "," -f 8 2019-02.csv > Feb.txt
+  755  uniq -c Feb.txt > FebPickup.txt
+  756  sort -nr FebPickup.txt > FebPickupSorted.txt
+  757  head FebPickupSorted.txt
+  758  head -3 FebPickupSorted.txt >> ws3.txt
+  759  vim ws3.txt
