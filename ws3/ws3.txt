@@ -1,9 +1,13 @@
-     Most Popular Pickup Locations in January 2019
-     26 145.0
-     24 145.0
-     19 193.0
-     
-     Most Popular Pickup Locations in February 2019
-     29 145.0
-     27 145.0
-     21 145.0
+ Most Popular Pickup Locations January 2019:
+ 263646 230.0
+ 277166 162.0
+ 312392 161.0
+ 323008 236.0
+ 332473 237.0
+
+ Most Popular Pickup Locations Febuary 2019:
+ 247035 186.0
+ 254410 162.0
+ 280640 236.0
+ 286773 161.0
+ 294584 237.0

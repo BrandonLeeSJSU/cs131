@@ -1,31 +1,31 @@
-  729  cut -d "," -f 8 January.txt
-  730  sort January.txt
-  731  cut -d "," -f 8 January.txt > January.txt
-  732  vim January.txt
-  733  less January.txt
-  734  cut -d "," -f 8 2019-01.csv > January.txt
-  735  less January.txt
-  736  sort January.txt > January.txt
-  737  less January.txt
-  738  cut -d "," -f 8 2019-01.csv > January.txt
-  739  sort -n January.txt
-  740  uniq -c January.txt
-  741  uniq -c January.txt > JanPickup.txt
-  742  sort -n JanPickup.txt
-  743  head JanPickup.txt
-  744  vi JanPickup.txt
-  745  sort -n JanPickup.txt > JanPickup.txt
-  746  vi JanPickup.txt
-  747  uniq -c January.txt > JanPickup.txt
-  748  sort -n JanPickup.txt > JanPickupSorted.txt
-  749  head JanPickupSorted.txt
-  750  sort -nr JanPickup.txt > JanPickupSorted.txt
-  751  head JanPickupSorted.txt
-  752  head -3  JanPickupSorted.txt > ws3.txt
-  753  vim ws3.txt
-  754  cut -d "," -f 8 2019-02.csv > Feb.txt
-  755  uniq -c Feb.txt > FebPickup.txt
-  756  sort -nr FebPickup.txt > FebPickupSorted.txt
-  757  head FebPickupSorted.txt
-  758  head -3 FebPickupSorted.txt >> ws3.txt
-  759  vim ws3.txt
+  714  cp 2019-01.csv January.txt
+  715  sort -n January.txt
+  716  cp 2019-01.csv January.txt
+  717  vi January.txt
+  722  sort -k 8n January.txt
+  723  vim January.txt
+  724  sort -k 8n January.txt
+  725  vim January.txt
+  726  cd taxidata
+  727  cut -d "," -f 8 2019-01.csv > January.txt
+  728  sort -n pu* > JanPickup.txt
+  729  sort -n Janu* > JanPickup.txt
+  730  uniq -c JanPickup.txt > JanSorted.txt
+  731  head JanSorted.txt
+  732  tail JanSorted.txt
+  733  sort -n JanSorted.txt > JanSortedCount.txt
+  734  tail JanSortedCount.txt
+  745  tail -5 JanSortedCount.txt > ws3.txt
+  746  vim ws3.txt
+  747  cut -d "," -f 8 2019-02.csv > Feb.txt
+  748  sort -n Fe* > FebSort.txt
+  749  uniq -c FebS* > FebSorted.txt
+  750  head FebSorted.txt
+  751  sort -n FebSorted.txt > FebSortedCount.txt
+  752  tail FebSortedC*
+  753  tail -5 FebSortedC* >> ws3.txt
+  754  vim ws3.txt
+  755  mv ws3.txt ../
+  756  cd
+  757  mv ws3.txt cs131/ws3/
+  758  cd cs131/ws3/
