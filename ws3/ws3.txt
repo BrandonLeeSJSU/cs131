@@ -1,3 +1,5 @@
+ Notice: Bottom to Top is Most Popular Pickup Locations
+
  Most Popular Pickup Locations January 2019:
  263646 230.0
  277166 162.0
