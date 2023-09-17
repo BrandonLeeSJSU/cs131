@@ -1,0 +1,6 @@
+Average Fare for 79.0-125.0:
+9.0218
+
+Average Fare for 145.0-145.0:
+5.5823
+

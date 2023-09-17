@@ -1,0 +1,22 @@
+  990  cut -d "," -f 8,9,11 2019-06.csv > JuneCut.csv
+  991  head JuneCut.csv
+ 1000  wc -l JuneCut2.0*
+ 1002  grep "^79\.0,125\.0" JuneCut.csv > JuneCut2.0.csv
+ 1003  wc -l JuneCut2.0*
+ 1005  cut -d "," -f 3 JuneCut2.0.csv> 79.0-125.0.txt
+ 1010  awk '{ sum += $1 } END {print sum }' 79.0-125.0.txt
+ 1011  num1=12415.5
+ 1012  num2=1487
+ 1014  ans=$((num1 / num2))
+ 1015  num1=13415\.5
+ 1018  echo "scale=4; $num1 / $num2" |bc >wk4.txt
+ 1019  vim wk4.txt
+ 1020  cut -d "," -f 8,9,11 2019-06.csv | grep "^145\.0,145\.0" | cut -d "," -f 3 > 145.0-145.0.txt
+ 1021  wc -l 145*
+ 1022  awk '{ sum += $1 } END {print sum }' 76.0-125.0.txt
+ 1023  awk '{ sum += $1 } END {print sum }' 145.0-425.0.txt
+ 1024  awk '{ sum += $1 } END {print sum }' 145.0-145.0.txt
+ 1025  num1=17115.4
+ 1026  num2=3066
+ 1027  echo "scale=4; $num1 / $num2" |bc
+ 1028  echo "scale=4; $num1 / $num2" |bc >> wk4.txt
