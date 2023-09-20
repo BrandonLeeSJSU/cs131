@@ -1,0 +1,63 @@
+  811  cut -d "," -f 9 May_3_Or_More.csv | sort | uniq -c| sort -nr > MayDropoff.txt
+  813  head -n 10 MayDropoff.txt >> a2.txt
+  818  grep .*,.*,\"2019-05-20.*" 2019-05.csv | sort -k 8n > May_20_Pickup.csv
+  819  head -5 May_20*
+  821  grep .*,.*,\"2019-05-20.*" 2019-05.csv | sort -k 8n > May_20_Pickup.csv
+  823  grep .*,.*,\"2019-05-20.*" 2019-05.csv > May_20_Pickup.csv
+  824  grep .*,.*, \"2019-05-20.*" 2019-05.csv > May_20.csv
+  827  grep .*,.*,\"2019-05-20.*" 2019-05.csv > May20Pickup.csv
+  838  head 2019-05
+  839  head 2019-05.csv
+  840  grep -E .*,.*\"2019-05-11 .*/ 2019-05.csv | cut -d "," -f 17 2019-05.csv > MayAveragePayment.txt
+  845  awk '
+  846  {count+=$1}
+  847  END{print count/NR}
+  848  ' MayAveragePayment.txt
+  849  awk ' > a2.txt
+  850  {count+=$1}
+  851  END {print count/NR}
+  852  ' MayAverage*
+  853  awk ' > a2.txt
+  854  {count+=$1}
+  855  END {print count/NR}
+  856  ' MayAveragePayment.txt
+  857  touch a2.txt
+  858  vim a2.txt
+  859  sort -n MayAver*
+  860  sort -n 5 MayAve*
+  861  sort -n MayAve* | head 5 > HighestPay.txt
+  862  sort -n MayAve* | head -5 > HighestPay.txt
+  863  cat High*
+  864  vim a2.txt
+ 1003  head 2019-05*
+ 1004  grep -E .*,\"2019-05-20 .* 2019-05.csv > 2019-05-20.csv
+ 1005  head 2019-05-20*
+ 1006  cut -d "," -f 8 2019-05-20.csv > May20th.txt
+ 1007  head May20*
+ 1008  sort -n May20* | uniq -c | sort -nr > May20Sort.txt
+ 1009  head May20S*
+ 1010  head -1 May20S* >> a2*
+ 1011  vim a2*
+ 1012  ls
+ 1013  cut -d "," -f 8 2019-05.csv | sort -n | uniq -c | sort -nr > MayBusy.txt
+ 1016  head 2019-05.csv
+ 1017  cut -d "," -f 7 2019-05.csv | sort -n | uniq -c | sort -nr > MayBusy.txt
+ 1021  cut -d "," -f 8 2019-05.csv | sort -n | uniq -c | sort -nr > MayBusy.txt
+ 1023  vim a2*
+ 1024  cut -d "," -f 8 2019-03.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1026  vim a2*
+ 1027  cut -d "," -f 8 2019-04.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1029  vim a2*
+ 1030  cut -d "," -f 8 2019-06.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1032  vim a2*
+ 1033  cut -d "," -f 8 2019-07.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1035  vim a2*
+ 1036  cut -d "," -f 8 2019-08.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1038  vim a2*
+ 1039  cut -d "," -f 8 2019-09.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1042  vim a2*
+ 1043  cut -d "," -f 8 2019-10.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1045  vim a2*
+ 1046  cut -d "," -f 8 2019-11.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt
+ 1048  vim a2*
+ 1049  cut -d "," -f 8 2019-12.csv | sort -n | uniq -c | sort -nr > PickupBusy.txt

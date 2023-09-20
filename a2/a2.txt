@@ -1,0 +1,45 @@
+Task 1: Average amount May 11,2019: 19.5322
+
+Task 2: Highest Pay May 11,2019: 378.3
+
+Task 3:
+Top 10 Dropoff Locations with 3 or more passengers May 2019:
+  39909 236.0
+  37140 237.0
+  36990 161.0
+  33678 230.0
+  28506 170.0
+  27895 162.0
+  27485 48.0
+  26782 142.0
+  25051 239.0
+  24609 234.0
+
+Task 4: Most Popular Dropoff Location on May 20th, 2019
+  12031 237.0
+
+Task 5: Most popular pickup location in 2019
+  January: 237.0 (from WK3)
+  February: 237.0 (from WK3)
+  March: 161.0
+  April:237.0
+  May: 237.0
+  June:237.0
+  July:161.0
+  August:161.0
+  September:237.0
+  October:237.0
+  November:237.0
+  December:237.0
+
+9 237.0
+3 161.0
+
+237.0 is the most Popular Pickup location in 2019
+
+
+
+
+
+
+
