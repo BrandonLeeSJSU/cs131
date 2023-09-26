@@ -1,0 +1,12 @@
+  832  mkdir ws5
+  902  grep -E "^(([^,]*),){7}234.0" 2019-08.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -100 >> top-100.txt
+  904  cut -d ' ' -f2 top-100.txt > top100Doloc.csv
+  905  cat top100*
+  917  touch loop.sh
+  918  vim loop*
+  942  bash loop.sh
+  952  mv do234 ../
+  980  cd taxidata
+  981  mv top100Doloc* ../
+  982  mv loop.sh ../
+  990  mv do234 ws5/
