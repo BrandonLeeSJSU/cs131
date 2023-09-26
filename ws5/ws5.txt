@@ -1,0 +1,14 @@
+Script started on 2023-09-26 13:59:13-04:00
+Specific Drop-off locations for 1.0, 3.0, 38.0, 223.0:
+
+used wc -l *.txt to find number of entries
+
+437836 1.0.txt
+
+wc: 3.0.txt: No such file or directory
+
+178473 48.0.txt
+
+12206 223.0.txt
+
+Script done on 2023-09-26 13:59:48-04:00
