@@ -1,0 +1,7 @@
+  997  sed -n '/^2.0/ p' 2019-11.csv > vendor2.csv
+  998  wc vendor2.csv > wk6.txt
+
+ 1004  sed -e 's/://g'; 's/-//g'; 's/"//g' 2019-11.csv > no-separators.csv
+ 1027  head -10 no-separators.csv >> wk6.txt
+ 1030  sed 's/\.[^,]*//g' no-separators.csv > no-fractions.csv
+ 1032  head -10 no-fractions.csv >> wk6.txt
