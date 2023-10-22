@@ -1,0 +1,7 @@
+Task 1 
+997  awk -F, '$17 >= 10.0 { tip_frequency[$14]++ } 
+END { for (tip in tip_frequency) print tip, tip_frequency[tip] }' 2019-12.csv > results.txt
+998  head -20 results.txt
+
+Task 2
+ 1006  sort -k2nr results.txt | head -n 20 > test.txt
