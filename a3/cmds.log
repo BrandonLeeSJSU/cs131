@@ -1,0 +1,39 @@
+  Task 1:
+  985  awk -F',' 'NR>1 { pickup_total[$8] += $17; pickup_count[$8]++ } END { for (location in pickup_total) { print location, pickup_total[location] / pickup_count[location]} }' 2019-08.csv > temp_temp.txt
+  986  vim temp_temp.txt
+  987  sort -k2, 2nr temp_temp.txt | head -n 10 > a3.txt
+  988  sort -k2,2nr temp_temp.txt | head -n 10 > a3.txt
+  
+  Task 2:
+  998  awk -F',' 'NR>1{ total_amount[$8, $9] += $17; count[$8, $9]++ }
+END { max_pair = ""; max_avg = 0; for (pair in total_amount) { avg = total_amount[pair] / count[pair]; if (avg > max_avg) { max_avg = avg; max_pair = pair } }
+print max_pair, max_avg }' 2019-08.csv >> a3.txt
+  
+  Task 3:
+  998  awk -F ',' '{ print $4, $13 }' 2019-08.csv > temp.txt
+  999  wc -l temp.txt
+ 1000  awk ' { 
+count[$1]++;
+total_tip[$1] += $2;
+}
+END {
+for (passenger in count) {
+avg_tip = total_tip[passenger] / count[passenger];
+print passenger, avg_tip;}
+} ' temp.txt > tempAvg.txt
+ 1012  cp tempAvg.txt tempAvg.dat
+ 
+ Task 4:
+ 1027  awk -F ',' '{ print $5, $17 }' 2019-08.csv > temp.txt
+ 1028  wc -l temp.txt
+ 1029  awk '{
+count[$1]++;
+total_amount[$1] += $2;
+}
+END {
+for (distance in count) {
+avg_total = total_amount[distance] / count[distance];
+print distance, avg_total;
+}
+}' temp.txt > temp.dat
+ 1039  gnuplot

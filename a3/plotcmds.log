@@ -1,0 +1,4 @@
+17   load 'Task3.plt'
+18   plot 'Task4.plt
+19   plot 'Task4.plt'
+20   load 'Task4.plt'
